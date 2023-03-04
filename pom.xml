@@ -168,18 +168,21 @@
         <groupId>javax.servlet</groupId>
         <artifactId>servlet-api</artifactId>
         <version>2.5</version>
+        <packaging>war</packaging>
       </dependency>
 
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
         <version>2.2</version>
+        <packaging>war</packaging>
       </dependency>
 
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit-dep</artifactId>
         <version>4.10</version>
+        <packaging>war</packaging>
         <scope>test</scope>
       </dependency>
 
@@ -187,6 +190,7 @@
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-core</artifactId>
         <version>1.2.1</version>
+        <packaging>war</packaging>
         <scope>test</scope>
       </dependency>
 
@@ -194,6 +198,7 @@
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-library</artifactId>
         <version>1.2.1</version>
+        <packaging>war</packaging>
         <scope>test</scope>
       </dependency>
 
@@ -201,6 +206,7 @@
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>1.8.5</version>
+        <packaging>war</packaging>
         <scope>test</scope>
       </dependency>
     </dependencies>
